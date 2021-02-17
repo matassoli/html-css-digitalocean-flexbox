@@ -135,4 +135,8 @@
    .sponsor__logos img {
      margin-right: 0;
    }
+
+   .features__container, .features__row {
+     flex-direction: column;
+   }
  }
