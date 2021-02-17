@@ -8,14 +8,12 @@
  .sponsor {
    background-color: #f3f5f9;
    padding: 40px 0 20px 0;
-   width: 100%;
  }
 
  .sponsor__link, .sponsor__title, .sponsor__logos {
    width: 100%;
    display: flex;
    justify-content: center;
-   flex-basis: 10px;
  }
 
  .sponsor__logos {
@@ -25,12 +23,11 @@
  }
 
  .sponsor__logos img {
-   margin-right: 20px;
+   padding-right: 20px;
  }
 
  h5 {
    color: #6f7b97;
-   margin: 0;
    text-transform: uppercase;
  }
 
@@ -49,6 +46,84 @@
 
  .sponsor__link a:hover {
    color: #1633ff;
+ }
+
+ .features {
+   margin: 80px auto;
+   width: 80%;
+   text-align: center;
+ }
+
+ .features__container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .features__text {
+   color: #5b6987;
+   font-size: 20px;
+   flex-basis: 100%;
+   margin-bottom: 100px;
+ }
+
+ .features__text h2 {
+   color: #031b4e;
+   font-size: 36px;
+   font-weight: 600;
+   padding-bottom: 20px;
+ }
+
+ .features__row {
+   flex-basis: 65%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .features__description {
+   text-align: left;
+   width: 50%;
+   padding-bottom: 30px;
+   padding-left: 20px;
+ }
+
+ .features__buttons {
+   padding-bottom: 30px;
+   flex-basis: 10%;
+ }
+
+ .features__buttons button {
+   background: transparent;
+   border: none;
+   border-left: 1px solid rgba(3, 27, 78, 0.2);
+   border-radius: 0;
+   color: rgba(3, 27, 78, 0.6);
+   display: block;
+   font-size: 16px;
+   outline: none;
+   padding: 15px;
+ }
+
+ .features__buttons button:active {
+   color: #031b4e;
+   border-color: #006aff;
+   border-width: 3px;
+   transition: border 0.1s linear
+ }
+
+ .features__description img {
+   padding-bottom: 20px;
+ }
+
+ .features__description h5 {
+   color: #031b4f;
+   font-weight: 600;
+   padding-bottom: 15px;
+ }
+
+ .features__description p, .slides p {
+   color: #5b6987;
+   font-size: 16px;
  }
 
  @media screen and (max-width: 768px) {
